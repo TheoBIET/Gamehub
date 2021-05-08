@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gamehub</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/reset.css" />
+        <%if (GAME && GAME.cssFile){ %>
+        <link rel="stylesheet" href="/css/<%= GAME.name %>.css" />
+        <%}%>
+    </head>
+    <body>
+        <header class="main-header">
+            <h1>
+                <a href="/">GameHub</a>
+            </h1>
+        </header>
+    </body>
+</html>

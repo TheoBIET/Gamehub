@@ -1,0 +1,195 @@
+:root {
+    --main: #09C3A7;
+    --font: #FFFDD8;
+    --dark-main: #0b9581;
+    --success: #09c337;
+    --red:#c30f09;
+    --orange: #c8861a;
+    --blue: #197ad4;
+ }
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main);
+    color: var(--font);
+    padding: 5vh;
+ }
+ 
+ h1 {
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 0 0 2px var(--dark-main);
+    font-weight: bold;
+    margin-top: 1em;
+}
+ 
+ h2, footer {
+    color: var(--main);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+ }
+ 
+ ul {
+    text-align: left;
+    margin-bottom: 20px;
+ }
+ 
+ ul li:first-child {
+    font-weight: bold;
+    font-size: 1.2em;
+ }
+ 
+ #container, #scoreboard__modal {
+    width: 30%;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: var(--font);
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 5px var(--dark-main);
+ }
+ 
+ #scoreboard {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.856);
+    color: var(--main);
+    display: none;
+ }
+ 
+ #scoreboard p {
+    margin-bottom: 15px;
+ }
+ 
+ #scoreboard__modal {
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ #form {
+    margin-bottom: 20px;
+ }
+ 
+ #form__input {
+    text-align: center;
+    max-width: 20%;
+    font-size: 2em;
+    border: 1px solid var(--main);
+    border-radius: 25px;
+    background-color: var(--font);
+    color: var(--main);
+    font-weight: bold;
+ }
+ 
+ #form button {
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: var(--main);
+    color: var(--font);
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+ }
+ 
+ .container__logs {
+    background-color: var(--dark-main);
+    width: 80%;
+    min-height: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ 
+ .container__logs div {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 90%;
+    font-weight: bold;
+ }
+ 
+ .--reload {
+    background-color: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #restart-button {
+    background-color: var(--main);
+    padding: 1em;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+    display: none;
+ }
+ 
+ #restart-button:hover {
+    background-color: var(--dark-main);
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+ 
+ #restart-button:active {
+    background-color: var(--dark-main);
+    cursor: pointer;
+    transform: scale(.9);
+ }
+ 
+ #scoreboard-btn {
+    background-color: var(--main);
+    color: var(--font);
+    font-weight: bold;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: .4em 0;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .2s ease-in-out;
+ }
+ 
+ #scoreboard-btn:hover {
+    background-color: var(--dark-main);
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+ 
+ #scoreboard-btn:active {
+    background-color: var(--dark-main);
+    cursor: pointer;
+    transform: scale(.9);
+ }
+ 
+ .plus {
+    background-color: var(--blue);
+ }
+ 
+ .moins {
+    background-color: var(--orange);
+ }
+ 
+ .loose {
+    background-color: var(--red);
+ }
+ 
+ .success {
+    background-color: var(--success);
+ }

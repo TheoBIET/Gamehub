@@ -1,0 +1,23 @@
+<%- include('partials/header', {GAME: GAMES.fourchette}); %>
+
+<h1>Le Juste Prix</h1>
+         <div id="container">
+            <h2 id="instructions">Trouve le nombre entre 0 et 100!</h2>
+            <form id="form">
+               <input id="form__input" type="text">
+               <button id="form__btn">✔</button>
+            </form>
+            <h2 id="history">Dernières tentatives</h2>
+            <div class="container__logs">
+               <div id="restart-button"></div>
+            </div>
+            <div id="scoreboard-btn">Scoreboard</div>
+            <footer>Made with by Théo BIET</footer>
+         </div>
+         <div id="scoreboard">
+            <div id="scoreboard__modal">
+               <h2>Tableau des scores</h2>
+               <p>Cliquez en dehors pour fermer</p>
+            </div>
+         </div>
+<%- include('partials/footer', {GAME: GAMES.fourchette}); %>

@@ -1,0 +1,128 @@
+{
+  "fourchette": {
+    "name": "fourchette",
+    "title": "Juste Prix",
+    "cssFile": "fourchette.css",
+    "jsFile": "fourchette.js",
+    "miniature" : "https://i.ytimg.com/vi/262iLLciSWI/maxresdefault.jpg"
+  },
+  "diceRoller": {
+    "name": "diceRoller",
+    "title": "Dice Roller",
+    "cssFile": "diceRoller.css",
+    "jsFile": "diceRoller.js",
+    "miniature" : "https://www.azutura.com/media/catalog/product/cache/49/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-44881_WP.jpg"
+  },
+  "grunt": {
+    "name": "grunt",
+    "title": "Il faut sauver Zelda",
+    "cssFile": "grunt.css",
+    "jsFile": "grunt.js",
+    "miniature" : "https://wallpapercave.com/wp/wp2785906.jpg"
+  },
+  "pixelArt": {
+    "name": "pixelArt",
+    "title": "Pixel Invader",
+    "cssFile": "pixelArt.css",
+    "jsFile": "pixelArt.js",
+    "miniature" : "https://www.teahub.io/photos/full/214-2147279_pixel-art-retro-video-game.jpg"
+  },
+  "Valorant": {
+    "name": "Valorant",
+    "title": "Valorant",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://images4.alphacoders.com/112/1125079.png"
+  },
+  "Fortnite": {
+    "name": "Fornite",
+    "title": "Fornite",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://wallpapercave.com/wp/wp6337528.jpg"
+  },
+  "CallOfDuty": {
+    "name": "COD",
+    "title": "Call of Duty",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://www.nawpic.com/media/2020/call-of-duty-nawpic-1.jpg"
+  },
+  "FinalFantasy": {
+    "name": null,
+    "title": "Final Fantasy",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://image.api.playstation.com/vulcan/img/cfn/113075PxnarzRek4cRpjrRWSpLfrcBd23B5e_Yj2azms6nWYKmySv4h3a22G5_R1CM4BQUmSRD6oOArDROKv041NUkgun78-.png"
+  },
+  "FIFA 21": {
+    "name": null,
+    "title": "FIFA 21",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/global_assets/common/featured_images/fifa-21-grid-tile-generic-16x9.jpg.adapt.crop191x100.1200w.jpg"
+  },
+  "GTA": {
+    "name": null,
+    "title": "Grand Theft Auto V",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://wallpapercave.com/wp/wp1809623.jpg"
+  },
+  "Counter Strike: Global Offensive": {
+    "name": null,
+    "title": "Counter Strike: Global Offensive",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://www.xtrafondos.com/wallpapers/counter-strike-global-offensive-csgo-3197.jpg"
+  },
+  "gmod": {
+    "name": null,
+    "title": "Garry's Mod",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://images3.alphacoders.com/557/thumb-1920-557525.jpg"
+  },
+  "p": {
+    "name": null,
+    "title": "Phasmophobia",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://s1.gaming-cdn.com/images/products/7677/orig/phasmophobia-early-access-cover.jpg"
+  },
+  "a": {
+    "name": null,
+    "title": "Among US",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://cdn2.unrealengine.com/egs-amongus-innersloth-s6-1200x1600-675403712.jpg"
+  },
+  "r": {
+    "name": null,
+    "title": "Rust",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://image.api.playstation.com/vulcan/ap/rnd/202103/1609/7fPS16E9bbTgKkTL6tnWMDHG.png"
+  },
+  "ar": {
+    "name": null,
+    "title": "ARK Survival Evolved",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://image.api.playstation.com/cdn/EP0688/CUSA06782_00/4Fn75AWWgOLZiFdxIA6HvSV5wC9c3WGp.png"
+  },
+  "f": {
+    "name": null,
+    "title": "Far Cry",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://cdn-products.eneba.com/resized-products/clqp8A2_350x200_1x-0.jpg"
+  },
+  "m": {
+    "name": null,
+    "title": "Minecraft",
+    "cssFile": null,
+    "jsFile": null,
+    "miniature" : "https://wallpapercave.com/wp/wp7561343.jpg"
+  }
+}

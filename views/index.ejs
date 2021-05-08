@@ -1,0 +1,24 @@
+<%-include('partials/header', {GAME: undefined});%>
+<main>
+    <h3>Listes des jeux disponibles :</h3>
+    <nav>
+        <ul>
+            <%for(const game in GAMES){%>
+            <a href="/game/<%=game %>"
+                ><li
+                    style="
+                        background: url('<%=GAMES[game].miniature%>') center
+                            center/cover;
+                    "
+                >
+                    <%=GAMES[game].title%>
+                </li></a
+            >
+            <%};%>
+        </ul>
+    </nav>
+</main>
+
+<footer></footer>
+
+<%-include('partials/footer', {GAME: undefined});%>
